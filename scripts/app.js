@@ -136,7 +136,8 @@
     main.replaceChildren(fragment);
     document.title = `${page.title} — Arya Dwija Sutha`;
     document.querySelectorAll('#nav a').forEach(a => {
-      a.toggleAttribute('aria-current', a.dataset.route === key);
+      if (a.dataset.route === key) a.setAttribute('aria-current', 'page');
+      else a.removeAttribute('aria-current');
     });
     if (push) history.pushState({ key }, '', `#${key}`);
     window.scrollTo({ top: 0, behavior: 'smooth' });
