@@ -1,0 +1,243 @@
+{
+ "name": "Arya Dwija Sutha",
+ "role": "Business Consultant, Astragraphia",
+ "skip": "Skip to content",
+ "themeLabel": "Theme",
+ "download": "Download resume",
+ "resumeFile": "assets/Arya Dwija Sutha Resume.pdf",
+ "nav": [
+  [
+   "index",
+   "About"
+  ],
+  [
+   "work",
+   "Work"
+  ],
+  [
+   "projects",
+   "Projects"
+  ],
+  [
+   "education",
+   "Education"
+  ],
+  [
+   "contact",
+   "Contact"
+  ]
+ ],
+ "pages": {
+  "index": {
+   "num": "00",
+   "title": "About",
+   "lede": null,
+   "blocks": [
+    {
+     "type": "prose",
+     "items": [
+      "I studied Information Systems and now I sell for a living — B2B, at Astragraphia. Most days that means sitting with a business, asking what they print, how much of it, who has to deal with it, and what it costs them. Then finding something that actually fits.",
+      "Outside work I still build things. Sometimes a website, sometimes a small tool to save me an hour, and lately a lot of it is AI.",
+      "I like technology, I like how businesses really work, and I like what happens when you put the two together."
+     ]
+    },
+    {
+     "type": "facts",
+     "rows": [
+      [
+       "Based in",
+       "Batam, Indonesia",
+       null,
+       "pin"
+      ],
+      [
+       "Languages",
+       "Bahasa Indonesia, English",
+       null,
+       "globe"
+      ],
+      [
+       "Currently",
+       "Business Consultant at PT Astra Graphia Tbk",
+       null,
+       "case"
+      ]
+     ]
+    }
+   ]
+  },
+  "work": {
+   "num": "01",
+   "title": "Work",
+   "lede": null,
+   "blocks": [
+    {
+     "type": "entry",
+     "period": "2025\n— now",
+     "title": "PT Astra Graphia Tbk",
+     "meta": "Business Consultant · Batam & Tanjung Pinang",
+     "body": [
+      "I sell Fujifilm multifunction machines, printing setups, and document workflows. The businesses vary — a print shop, a factory, a hotel — but the question underneath is always the same: what do you print, how much of it, and who has to deal with it.",
+      "I'd rather look at that first than quote a spec sheet. Half the time the machine they ask for isn't the one they need.",
+      "Along the way I built a few tools so I wouldn't have to do the same paperwork twice: a [quotation generator](projects.html#quotation), the [MIF Console](projects.html#mif), and a [Visit Logger Bot](projects.html#visit-logger)."
+     ],
+     "figures": "35 deals · 17 new-business wins · IDR 493M minimum ARR · 45 devices placed"
+    },
+    {
+     "type": "entry",
+     "period": "2023",
+     "title": "Krona Digital Marketing Agency",
+     "meta": "Web Developer Intern · Remote",
+     "body": [
+      "Built pages in WordPress and Elementor, turning designs into working websites."
+     ]
+    }
+   ]
+  },
+  "projects": {
+   "num": "02",
+   "title": "Projects",
+   "lede": "A few things I've built, worked on, or made to solve problems in my day-to-day work.",
+   "blocks": [
+    {
+     "type": "entry",
+     "id": "visit-logger",
+     "period": "01",
+     "title": "Visit Logger Bot",
+     "meta": "Internal tool · Astragraphia",
+     "body": [
+      "Sales means a lot of small things worth remembering — a visit, a call, something a customer mentioned in passing. By the end of the day, the last thing I want to do is open a spreadsheet and type it all in again.",
+      "So I built a Telegram bot. I tell it what happened, in my own words, and it sorts it into records, sets the follow-up, and drafts the WhatsApp message. The boring part is handled."
+     ],
+     "stack": "Telegram Bot API · Python"
+    },
+    {
+     "type": "entry",
+     "id": "quotation",
+     "period": "02",
+     "title": "Quotation Generator",
+     "meta": "Internal tool · Astragraphia",
+     "body": [
+      "I got tired of building quotations the same way every time. Open an old Word file, swap the machine photos, retype the prices, then do the whole thing again in Indonesian. It got old fast.",
+      "Now I pick the machines, fill in the customer and the terms, and it hands me a Word file and a PDF in either language. If a customer comes back, I reopen the old quotation instead of starting from zero."
+     ],
+     "stack": "Python · Flask · python-docx · LibreOffice"
+    },
+    {
+     "type": "entry",
+     "id": "mif",
+     "period": "03",
+     "title": "MIF Console",
+     "meta": "Internal tool · Astragraphia · Machine In Field dashboard & database",
+     "body": [
+      "The machine data we keep is genuinely useful, but it lives in spreadsheets that were never meant to be a database. Every month I'd go through the same sorting, matching accounts to whoever handles them. Again.",
+      "So I built a console. It remembers who owns what, so next month most of it is already done, and it keeps the history straight when a machine moves to a new customer. A monthly chore became something I can actually use."
+     ],
+     "stack": "Python · Flask · SQLite · pandas · Chart.js"
+    },
+    {
+     "type": "entry",
+     "id": "ecolodges",
+     "period": "04",
+     "title": "Ecolodges Indonesia",
+     "meta": "Client project · Website & SEO · 2025",
+     "body": [
+      "I rebuilt the site for Ecolodges Indonesia, a conservation tourism business — pages, content, structure — and set up analytics so we could see how people were finding it.",
+      "Over the stretch I tracked, monthly search impressions went from around 50,000 to over 100,000, and average position from 15 to 6."
+     ],
+     "stack": "WordPress · Beaver Builder · Yoast SEO · Google Analytics · Search Console"
+    },
+    {
+     "type": "entry",
+     "id": "hermes",
+     "period": "05",
+     "title": "Hermes",
+     "meta": "Personal project · Ongoing · AI",
+     "body": [
+      "I've been using Hermes to build things I couldn't have built alone. It's how I explore an idea, get stuck, work through it, and end up with something that runs.",
+      "I'm still learning where it's good and where it isn't. Some days that's a tool, some days a workflow, some days just finding out an idea doesn't work.",
+      "The point is getting from “I wonder if I could build that” to actually having it."
+     ],
+     "stack": "Hermes · Python · AI tools"
+    }
+   ]
+  },
+  "education": {
+   "num": "03",
+   "title": "Education",
+   "lede": null,
+   "blocks": [
+    {
+     "type": "entry",
+     "period": "2020\n— 2024",
+     "title": "Universitas Airlangga",
+     "meta": "Bachelor's Degree in Information Systems · GPA 3.74/4.00",
+     "body": [
+      "Software development, enterprise architecture, IT governance, data analysis — the technical side, and the business side of it.",
+      "My final project was a JavaScript dashboard for monitoring employee KPIs, built around a state electricity company's East Java distribution unit.",
+      "I was also Chief of HIMSI Sistem Informasi UNAIR in 2022."
+     ]
+    }
+   ]
+  },
+  "contact": {
+   "num": "04",
+   "title": "Contact",
+   "lede": "Something you're building, something you're stuck on, or just a good conversation — I'm happy to hear it. Email is where I actually reply.",
+   "blocks": [
+    {
+     "type": "facts",
+     "rows": [
+      [
+       "Email",
+       "aryadwijasuthaa@gmail.com",
+       "mailto:aryadwijasuthaa@gmail.com",
+       "mail"
+      ],
+      [
+       "Phone",
+       "087753829830",
+       "tel:+6287753829830",
+       "phone"
+      ],
+      [
+       "LinkedIn",
+       "linkedin.com/in/aryadwijasutha",
+       "https://www.linkedin.com/in/aryadwijasutha/",
+       "linkedin"
+      ],
+      [
+       "Location",
+       "Batam, Indonesia",
+       null,
+       "pin"
+      ]
+     ]
+    }
+   ]
+  }
+ },
+ "pager": {
+  "index": [
+   "work",
+   "Work"
+  ],
+  "work": [
+   "projects",
+   "Projects"
+  ],
+  "projects": [
+   "education",
+   "Education"
+  ],
+  "education": [
+   "contact",
+   "Contact"
+  ],
+  "contact": [
+   "index",
+   "About"
+  ]
+ },
+ "footer": "Nyoman Agus Arya Dwija Sutha · Batam, Indonesia"
+}
